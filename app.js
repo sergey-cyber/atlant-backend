@@ -12,7 +12,7 @@ app.use('/api/auth', require('./routes/auth.routes'));
 app.use('/api/hostelData', require('./routes/hostel.data.routes'));
 app.use('/api/home', require('./routes/home.page.routes'));
 
-const PORT = config.get('port') || 5000;
+const PORT = process.env.PORT || 80;
 //В конфиге хранятся константы в файле default.js 
 async function start() {
     try {
