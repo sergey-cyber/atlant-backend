@@ -1,0 +1,5 @@
+{
+    "port": 5000,
+    "jwtSecret": "hostel atlant secret key 2030",   
+    "mongoUri": "mongodb+srv://zenkovich_s:kirkhammett@cluster0.p7q7q.mongodb.net/atlantDataBase?retryWrites=true&w=majority"
+}
